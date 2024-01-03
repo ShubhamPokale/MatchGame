@@ -16,6 +16,9 @@ MatchGame is a fun and simple memory game where the player has to find matching 
 - The game uses a TextBlock_MouseDown event handler to handle the mouse clicks on the textBlock elements. This event handler checks if the textBlock element has a question mark or an animal emoji, and reveals or hides the animal emoji accordingly. The event handler also checks if the player has found a matching pair or not, and updates the score and the game state accordingly.
 - The game uses a TimeTextBlock_MouseDown event handler to handle the mouse clicks on the timeTextBlock element. This event handler resets the game by calling the SetUpGame method and setting the timer to zero.
 - The game uses a DispatcherTimer object named timer to keep track of the elapsed time. The timer has an interval of one second and a Tick event handler that updates the text of the timeTextBlock element with the formatted time. The timer also checks if the game is over or not, and stops the timer accordingly.
+
+<img src="appimg3.png" />
+
 <br>
 
 
